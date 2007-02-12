@@ -1,5 +1,5 @@
 Summary:	TUVision Image Processing Library
-Summary(pl):	TUVision - biblioteka do przetwarzania obrazu
+Summary(pl.UTF-8):   TUVision - biblioteka do przetwarzania obrazu
 Name:		tuvisionlib
 Version:	0.9
 Release:	1
@@ -29,11 +29,11 @@ integrated over time, but it is already suitable for some tasks:
 - camera calibration, 3D coordinate transformations
 - FFT of gray images
 
-%description -l de
-Die C++ - Bibliothek ist konstant im Entwicklungsstadium. Für viele
+%description -l de.UTF-8
+Die C++ - Bibliothek ist konstant im Entwicklungsstadium. FÃ¼r viele
 Anwendungen kann sie jedoch jetzt verwendet werden:
 
-- Repräsentation von Grau-, RGB und YUV-Bildern mit den folgenden
+- ReprÃ¤sentation von Grau-, RGB und YUV-Bildern mit den folgenden
   Datentypen: Byte, Int and Double
 - Datei-I/O: JPEG (r/w), TIFF (r/w), PGM (w), PNG and Gnuplot (w)
 - Grundlegende Filtertypen, generische Faltung
@@ -42,23 +42,23 @@ Anwendungen kann sie jedoch jetzt verwendet werden:
 - Kamerakalibration, 3D-Koordinatentransformation
 - FFT von Graubildern
 
-%description -l pl
-Ta biblioteka C++ jest ci±gle rozwijana i w miarê up³ywu czasu bêd±
-dodawane nowe algorytmy; jednak ju¿ teraz nadaje siê do niektórych
-zadañ:
+%description -l pl.UTF-8
+Ta biblioteka C++ jest ciÄ…gle rozwijana i w miarÄ™ upÅ‚ywu czasu bÄ™dÄ…
+dodawane nowe algorytmy; jednak juÅ¼ teraz nadaje siÄ™ do niektÃ³rych
+zadaÅ„:
 
-- reprezentowania obrazów w odcieniach szaro¶ci, RGB i YUV w oparciu o
+- reprezentowania obrazÃ³w w odcieniach szaroÅ›ci, RGB i YUV w oparciu o
   typy danych Byte, Int i Double
-- operacji wej¶cia/wyj¶cia na plikach: JPEG (odczyt/zapis), TIFF
+- operacji wejÅ›cia/wyjÅ›cia na plikach: JPEG (odczyt/zapis), TIFF
   (odczyt/zapis), PGM (zapis), PNG i Gnuplot (zapis)
-- podstawowych rodzajów filtrów, ogólnych przekszta³ceñ
-- wykrywania krawêdzi, wyci±gania obiektów
-- kalibracji aparatów, przekszta³ceñ wspó³rzêdnych 3D
-- FFT obrazów w skali szaro¶ci
+- podstawowych rodzajÃ³w filtrÃ³w, ogÃ³lnych przeksztaÅ‚ceÅ„
+- wykrywania krawÄ™dzi, wyciÄ…gania obiektÃ³w
+- kalibracji aparatÃ³w, przeksztaÅ‚ceÅ„ wspÃ³Å‚rzÄ™dnych 3D
+- FFT obrazÃ³w w skali szaroÅ›ci
 
 %package devel
 Summary:	Header files for TUVision library
-Summary(pl):	Pliki nag³ówkowe biblioteki TUVision
+Summary(pl.UTF-8):   Pliki nagÅ‚Ã³wkowe biblioteki TUVision
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	jasper-devel
@@ -70,19 +70,19 @@ Requires:	libtiff-devel
 %description devel
 Header files for TUVision library.
 
-%description devel -l pl
-Pliki nag³ówkowe biblioteki TUVision.
+%description devel -l pl.UTF-8
+Pliki nagÅ‚Ã³wkowe biblioteki TUVision.
 
 %package static
 Summary:	Static TUVision library
-Summary(pl):	Statyczna biblioteka TUVision
+Summary(pl.UTF-8):   Statyczna biblioteka TUVision
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static TUVision library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka TUVision.
 
 %prep
