@@ -1,5 +1,5 @@
 Summary:	TUVision Image Processing Library
-Summary(pl.UTF-8):   TUVision - biblioteka do przetwarzania obrazu
+Summary(pl.UTF-8):	TUVision - biblioteka do przetwarzania obrazu
 Name:		tuvisionlib
 Version:	0.9
 Release:	1
@@ -58,7 +58,7 @@ zadań:
 
 %package devel
 Summary:	Header files for TUVision library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki TUVision
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki TUVision
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	jasper-devel
@@ -75,7 +75,7 @@ Pliki nagłówkowe biblioteki TUVision.
 
 %package static
 Summary:	Static TUVision library
-Summary(pl.UTF-8):   Statyczna biblioteka TUVision
+Summary(pl.UTF-8):	Statyczna biblioteka TUVision
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
